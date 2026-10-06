@@ -1,0 +1,118 @@
+/* General Styling */
+body {
+    background-color: #ffffff; /* White background */
+    color: #2b542c; /* Dark green text */
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff !important; /* White text */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d4edda !important; /* Light green on hover */
+}
+
+/* Hero Section */
+header {
+    color: #2b542c; /* Dark green */
+    padding: 3rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #2b542c; /* Dark green */
+    color: #ffffff; /* White text */
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #2b542c; /* Dark green */
+    border-color: #2b542c;
+}
+
+.btn-primary:hover {
+    background-color: #d4edda; /* Light green */
+    border-color: #d4edda;
+    color: #2b542c; /* Dark green text */
+}
+
+/* Table */
+.table {
+    background-color: #ffffff; /* White */
+    border: 1px solid #2b542c; /* Green borders */
+}
+
+.table th {
+    background-color: #2b542c; /* Dark green */
+    color: #ffffff; /* White text */
+}
+
+.table td {
+    color: #2b542c; /* Dark green */
+}
+
+/* Styling for carousel captions */
+.carousel-caption h1 {
+    font-weight: bold;  /* Makes the heading text bold */
+    font-size: 2.5rem;  /* Increases the font size */
+}
+
+.carousel-caption p {
+    font-weight: 600;   /* Makes the paragraph text bold */
+    font-size: 1.2rem;  /* Slightly increases the font size */
+}
+
+/* Chat Styles */
+.chat-container {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+.chat-message {
+    border-left: 3px solid #007bff;
+    margin-bottom: 10px;
+}
+
+.chat-reply {
+    margin-left: 20px;
+    border-left: 3px solid #28a745;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin-top: 20px;
+    color: #2b542c; /* Dark green for text */
+}
+
+.page-link {
+    color: #2b542c; /* Dark green */
+    border: 1px solid #2b542c; /* Green border */
+}
+
+.page-link:hover {
+    background-color: #d4edda; /* Light green background on hover */
+    color: #2b542c; /* Dark green text */
+    border-color: #2b542c; /* Green border on hover */
+}
+
+.page-item.active .page-link {
+    background-color: #2b542c; /* Dark green background for active page */
+    border-color: #2b542c; /* Dark green border for active page */
+    color: #ffffff; /* White text for active page */
+}
+
+.page-item.disabled .page-link {
+    color: #d4edda; /* Light green text for disabled state */
+    border-color: #d4edda; /* Light green border for disabled state */
+}
+
+.page-link[aria-label="Previous"],
+.page-link[aria-label="Next"] {
+    font-weight: bold; /* Bold font for Previous and Next buttons */
+}
+
